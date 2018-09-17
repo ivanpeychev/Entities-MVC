@@ -27,6 +27,9 @@ class PersonView {
 			tr.appendTo(tbody);
 		})
 		tbody.appendTo(table);
-		table.appendTo($('#wrapper'));
+
+		let button = $('<button>').on('click', function() { location.hash='#/home' }).text('Home');
+		$('#wrapper').html(button);
+		$('#wrapper').append(table);
 	}
 }
