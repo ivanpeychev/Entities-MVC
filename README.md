@@ -1,3 +1,3 @@
 # Entities-MVC
 
-A simple Vanilla JS MVC projects with Sammy routing and Mustache templates.
+A simple Vanilla JS MVC project with Sammy routing and Mustache templates.
