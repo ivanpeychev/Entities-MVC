@@ -5,7 +5,7 @@ sessionStorage.setItem('authToken', btoa('guest:guest'));
 		let baseUrl = 'https://baas.kinvey.com/';
 		let appKey = 'kid_HJzvKOaum';
 		let appSecret = '83ec0ffe3f214ac388610f034e8548e6';
-
+		
 		let authenticationService = new AuthenticationService(appKey, appSecret);
 		
 		let requester = new Requester();
